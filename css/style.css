@@ -1,0 +1,21 @@
+/* <<<<<<<< Root : Variable >>>>>>>> */
+:root{
+    --color-blue-1: #004D40;
+    --color-blue-2: #00695C;
+    --color-blue-3: #00796B;
+    --color-blue-4: ##B2DFDB;
+    --color-white: #ffffff;
+}
+/* <<<<<<<< Root : Variable >>>>>>>> */
+
+/* <<<<<<<< Body >>>>>>>> */
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    background-color: var(--color-blue-1);
+}
+/* <<<<<<<< Body >>>>>>>> */
+
