@@ -3,7 +3,7 @@
     --color-blue-1: #004D40;
     --color-blue-2: #00695C;
     --color-blue-3: #00796B;
-    --color-blue-4: ##B2DFDB;
+    --color-blue-4: #B2DFDB;
     --color-white: #ffffff;
 }
 /* <<<<<<<< Root : Variable >>>>>>>> */
@@ -18,4 +18,49 @@ body{
     background-color: var(--color-blue-1);
 }
 /* <<<<<<<< Body >>>>>>>> */
+
+/* <<<<<<<< Start Clock >>>>>>>> */
+.title{
+    display:inline-block;
+    width: 100%;
+    background-color: var(--color-blue-4);
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 12rem auto;
+    width: 500px;
+    height: 150px;
+    background-color: var(--color-blue-4);
+    border-radius: 1rem;
+    z-index: 999;
+}
+.back{
+    display: block;
+    z-index: -99999;
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background-color: var(--color-blue-2);
+    border-radius: 1rem;
+}
+.clock_time{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: var(--color-white);
+}
+.clock_dot{
+    font-size: 4rem;
+    margin: 0 1rem;
+    color: var(--color-white);
+}
+/* <<<<<<<< Start Clock >>>>>>>> */
+
 
